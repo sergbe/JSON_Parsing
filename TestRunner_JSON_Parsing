@@ -1,0 +1,39 @@
+#!/bin/sh
+# ========================================
+GITHUB_ACCOUNT=sergbe
+WS_DIR=Workspace
+REPO_NAME=JSON_Parsing
+APP_VERSION=1.1
+MAIN_CLASS=core.Currency
+#TEST_SUITE=AllTest
+# ========================================
+# ========================================
+# GITHUB_ACCOUNT=$1
+# WS_DIR=$2
+# REPO_NAME=$3
+# APP_VERSION=$4
+# MAIN_CLASS=$5
+# TEST_SUITE=$6
+# ========================================
+
+if ! which java >/dev/null 2>&1 ; then echo Java not installed; return; fi
+if ! which mvn >/dev/null 2>&1 ; then echo Maven not installed; return; fi
+if ! which git >/dev/null 2>&1 ; then echo Git not installed; return; fi
+
+if [ -d "$HOME/$WS_DIR" ] ; then cd ~/$WS_DIR; else echo $WS_DIR directory is not exist; return; fi
+
+#if [ -d "$HOME/$WS_DIR/$REPO_NAME" ]; then rm -rf $HOME/$WS_DIR/$REPO_NAME; fi
+
+#git clone https://github.com/$GITHUB_ACCOUNT/$REPO_NAME.git
+
+cd ./$REPO_NAME
+
+echo "Building package Fat jar ..."
+
+mvn clean package -Dmaven.test.skip=true -Dbuild.version=$APP_VERSION | tee /Users/Serg/$WS_DIR/$REPO_NAME/Report_HW_46-$REPO_NAME-$APP_VERSION-Maven.txt
+
+echo "Executing Java programm Web driver's ..."
+
+java -cp /Users/Serg/$WS_DIR/$REPO_NAME/target/$REPO_NAME-$APP_VERSION-jar-with-dependencies.jar $MAIN_CLASS  | tee /Users/Serg/$WS_DIR/$REPO_NAME/Report_HW_46-$APP_VERSION-$MAIN_CLASS-Runner.txt
+
+

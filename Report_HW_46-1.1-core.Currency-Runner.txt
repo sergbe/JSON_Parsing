@@ -1,0 +1,35 @@
+	Adidas	Football Brazuca Fifa World Cup Brazil 2014	USD	85.51	amazon.com
+Country: France, Name: USD/EUR, Rate: 0.8983 --> Local Price: 76.81364
+Country: China, Name: USD/CNY, Rate: 6.5842 --> Local Price: 563.01495
+Country: United Kingdom, Name: USD/GBP, Rate: 0.6815 --> Local Price: 58.275066
+Country: Ukraine, Name: USD/UAH, Rate: 25.175 --> Local Price: 2152.7144
+Country: Russian Federation, Name: USD/RUB, Rate: 66.0245 --> Local Price: 5645.755
+=======================================================================================================
+	Withings	Pulse Wireless Activity Tracker + Sleep	USD	73.39	amazon.com
+Country: France, Name: USD/EUR, Rate: 0.8981 --> Local Price: 65.91156
+Country: China, Name: USD/CNY, Rate: 6.5842 --> Local Price: 483.21442
+Country: United Kingdom, Name: USD/GBP, Rate: 0.6815 --> Local Price: 50.015285
+Country: Ukraine, Name: USD/UAH, Rate: 25.175 --> Local Price: 1847.5931
+Country: Russian Federation, Name: USD/RUB, Rate: 66.0245 --> Local Price: 4845.538
+=======================================================================================================
+	Samsung	Galaxy Grand Prime Dual Sim Factory Unlocked	USD	145.94	amazon.com
+Country: France, Name: USD/EUR, Rate: 0.8971 --> Local Price: 130.92278
+Country: China, Name: USD/CNY, Rate: 6.5823 --> Local Price: 960.6209
+Country: United Kingdom, Name: USD/GBP, Rate: 0.6815 --> Local Price: 99.458115
+Country: Ukraine, Name: USD/UAH, Rate: 25.175 --> Local Price: 3674.0396
+Country: Russian Federation, Name: USD/RUB, Rate: 66.0245 --> Local Price: 9635.615
+=======================================================================================================
+	GoPro	GoPro HERO3+ Black Edition Adventure Camera	USD	328.99	amazon.com
+Country: France, Name: USD/EUR, Rate: 0.8981 --> Local Price: 295.4659
+Country: China, Name: USD/CNY, Rate: 6.5842 --> Local Price: 2166.1357
+Country: United Kingdom, Name: USD/GBP, Rate: 0.6815 --> Local Price: 224.20668
+Country: Ukraine, Name: USD/UAH, Rate: 25.175 --> Local Price: 8282.322
+Country: Russian Federation, Name: USD/RUB, Rate: 66.0245 --> Local Price: 21721.398
+=======================================================================================================
+	Apple	iPhone 6s 64 GB US Warranty Unlocked	USD	829.09	amazon.com
+Country: France, Name: USD/EUR, Rate: 0.8981 --> Local Price: 744.6058
+Country: China, Name: USD/CNY, Rate: 6.5846 --> Local Price: 5459.226
+Country: United Kingdom, Name: USD/GBP, Rate: 0.68 --> Local Price: 563.78125
+Country: Ukraine, Name: USD/UAH, Rate: 25.175 --> Local Price: 20872.34
+Country: Russian Federation, Name: USD/RUB, Rate: 66.0245 --> Local Price: 54740.254
+=======================================================================================================

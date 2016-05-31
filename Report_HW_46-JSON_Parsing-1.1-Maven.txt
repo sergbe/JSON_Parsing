@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for core:JSON_Parsing:jar:1.1
+[WARNING] 'version' contains an expression but should be a constant. @ core:JSON_Parsing:${build.version}, /Users/Serg/Workspace/JSON_Parsing/pom.xml, line 7, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JSON_Parsing 1.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ JSON_Parsing ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ JSON_Parsing ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ JSON_Parsing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Serg/Workspace/JSON_Parsing/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ JSON_Parsing ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ JSON_Parsing ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ JSON_Parsing ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ JSON_Parsing ---
+[INFO] Building jar: /Users/Serg/Workspace/JSON_Parsing/target/JSON_Parsing-1.1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.4:single (assemble-all) @ JSON_Parsing ---
+[INFO] Building jar: /Users/Serg/Workspace/JSON_Parsing/target/JSON_Parsing-1.1-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.204 s
+[INFO] Finished at: 2016-05-31T00:28:56-07:00
+[INFO] Final Memory: 20M/305M
+[INFO] ------------------------------------------------------------------------
